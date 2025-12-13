@@ -1,0 +1,18 @@
+// create a list of the days of the week
+let list = { monday: 'monday',
+    tuesday: 'Tuesday',
+    wednesday: 'Wednesday',
+    thursday: 'Thursday',
+    friday: 'Friday',
+    saturday: 'Saturday',
+    sunday: 'Sunday'} 
+
+console.log(list, string(list)); 
+
+// create a map data with a deck of cards
+let cards = new Map(
+    [ ['2 of Hearts', 2], ['3 of Hearts', 3], ['4 of Hearts', 4], ['5 of Hearts', 5],
+        ['6 of Hearts', 6], ['7 of Hearts', 7], ['8 of Hearts', 8], ['9 of Hearts', 9],     
+        ['10 of Hearts', 10], ['Jack of Hearts', 11], ['Queen of Hearts', 12],
+        ['King of Hearts', 13], ['Ace of Hearts', 14] ] 
+);
