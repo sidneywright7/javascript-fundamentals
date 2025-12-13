@@ -1,0 +1,13 @@
+// describe a hotel booking as an object. Include the following details:
+// - room number
+// - guest name
+// - start and end dates
+// - total price
+
+let booking = {
+    roomNumber: 101,
+    guestName: 'John Doe',
+    startDate: '2024-07-01',
+    endDate: '2024-07-05',
+    totalpriceUSCents: 500.00,
+};
