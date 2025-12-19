@@ -1,4 +1,4 @@
-fucntion getCoefficients(name) {
+function getCoefficients(name) {
     let value = null;
     do {
         let str = prompt(`Enter the value for ${name}`);
@@ -51,4 +51,4 @@ function quadraticEquation() {
     } else {
         // no real roots
         printComplexSolution(a,b);
-    }
+    }}
