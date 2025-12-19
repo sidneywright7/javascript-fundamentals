@@ -1,6 +1,8 @@
 let list = [sunday, monday, tuesday, wednesday, thursday, friday, saturday];
 
 let i = 0
+
+//while loop is used to iterate over the list
 while (i < list.length) {
     console.log(list[i]);
    i = i +1;
@@ -13,3 +15,18 @@ while (i < list.length) {
 // progresses towards the termination condition. THIS IS EXTREMELY IMPORTANT FOR AVOIDING
 //  INFINITE LOOPS.
 
+//another loop is for (initialization; condition; increment/decrement) {body_statements;}
+for (ley i = 0; i < list.length; i++) {
+    console.log(list[i]);
+}
+
+//third loop is (for..in loop) is used to iterate over the keys of an object or the indices of an array.
+for (let i in list) {
+    console.log(list[i]);
+}
+
+
+//fourth loop is (for..of loop) is used to iterate over the values of an array or other iterable objects.
+for (let day of list) {
+    console.log(day);
+}   
