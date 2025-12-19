@@ -1,0 +1,24 @@
+// ask user to enter number and print its parity ("odd" or "even")
+
+let value = prompt ("Enter a number");
+let intValue = Number.parseInt(value);
+
+if (Number.isNaN(intValue)) {
+    console.log("Invalid input");
+} else {
+    if (intValue % 2 === 0) {
+        console.log("even")
+    }
+    else {
+        (intValue % 2 === 1) ;
+        console.log("odd");
+    }
+}
+
+//example of a number
+let userNumber = 7;
+if (userNumber % 2 === 0) {
+    console.log("even");
+} else {
+    console.log("odd");
+}
