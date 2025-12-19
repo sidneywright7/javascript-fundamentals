@@ -22,3 +22,5 @@ if (userNumber % 2 === 0) {
 } else {
     console.log("odd");
 }
+
+//example of an invalid input
