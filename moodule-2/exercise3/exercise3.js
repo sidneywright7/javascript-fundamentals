@@ -32,3 +32,5 @@ while (minValue < maxValue) {
             ${midpoint} higher(interval: ${minValue} to ${maxValue})`);
     }
 }
+
+console.log(`Your number is ${minValue}match`);
